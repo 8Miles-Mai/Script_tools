@@ -1,0 +1,15 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/app/deploy/scripts
+MAILTO=deploy
+HOME=/
+
+#Run 001-006 to analysis log and DB by sequence at 6 AM HKT everyday
+0  6  *  *  *  000_batch_job_enabler.sh 001;000_batch_job_enabler.sh 002;000_batch_job_enabler.sh 003;000_batch_job_enabler.sh 004;000_batch_job_enabler.sh 005;000_batch_job_enabler.sh 006
+
+#Run 007 to calculate aggregation at 9 AM HKT every Sunday
+0  9  *  *  sun  000_batch_job_enabler.sh 007
+
+
+
+#RUN test script for IDC environment, will be delete if test over
+5  *  *  *  * test/getGMVO_tomcat_log.sh

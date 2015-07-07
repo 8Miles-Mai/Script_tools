@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/gm_framework/!svn/ver/9554/trunk/apps/scripts/batch_jobs
+END
+010_mygmc_login_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gm_framework/!svn/ver/9178/trunk/apps/scripts/batch_jobs/010_mygmc_login_logs.sh
+END
+envprod.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gm_framework/!svn/ver/9089/trunk/apps/scripts/batch_jobs/envprod.sh
+END
+014_mygmc_buying_reply_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gm_framework/!svn/ver/9170/trunk/apps/scripts/batch_jobs/014_mygmc_buying_reply_to_db.py
+END
+100_system_release_portal_tomcat_memory.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gm_framework/!svn/ver/9635/trunk/apps/scripts/batch_jobs/100_system_release_portal_tomcat_memory.sh
+END
+011_mygmc_product_click_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gm_framework/!svn/ver/9176/trunk/apps/scripts/batch_jobs/011_mygmc_product_click_to_db.py
+END
+012_mygmc_product_retrieve_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gm_framework/!svn/ver/9175/trunk/apps/scripts/batch_jobs/012_mygmc_product_retrieve_logs.sh
+END
+006_load_replies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/006_load_replies.sh
+END
+012_mygmc_product_retrieve_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gm_framework/!svn/ver/9174/trunk/apps/scripts/batch_jobs/012_mygmc_product_retrieve_to_db.py
+END
+env.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gm_framework/!svn/ver/8730/trunk/apps/scripts/batch_jobs/env.sh
+END
+gm_common.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gm_framework/!svn/ver/9168/trunk/apps/scripts/batch_jobs/gm_common.py
+END
+gm_common.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gm_framework/!svn/ver/8867/trunk/apps/scripts/batch_jobs/gm_common.pyc
+END
+002_extract_access_log_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gm_framework/!svn/ver/8730/trunk/apps/scripts/batch_jobs/002_extract_access_log_to_db.py
+END
+002_load_access_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/002_load_access_logs.sh
+END
+003_load_performance_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gm_framework/!svn/ver/8992/trunk/apps/scripts/batch_jobs/003_load_performance_logs.sh
+END
+006_extract_replies_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/006_extract_replies_to_db.py
+END
+batch_cron.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gm_framework/!svn/ver/8794/trunk/apps/scripts/batch_jobs/batch_cron.txt
+END
+001_load_display_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/001_load_display_logs.sh
+END
+010_mygmc_login_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gm_framework/!svn/ver/9117/trunk/apps/scripts/batch_jobs/010_mygmc_login_to_db.py
+END
+gm_common.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gm_framework/!svn/ver/8885/trunk/apps/scripts/batch_jobs/gm_common.sh
+END
+email.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gm_framework/!svn/ver/8910/trunk/apps/scripts/batch_jobs/email.cfg
+END
+014_mygmc_buying_reply_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gm_framework/!svn/ver/9171/trunk/apps/scripts/batch_jobs/014_mygmc_buying_reply_logs.sh
+END
+000_email_api.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gm_framework/!svn/ver/8663/trunk/apps/scripts/batch_jobs/000_email_api.py
+END
+007_cal_aggs_for_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gm_framework/!svn/ver/8867/trunk/apps/scripts/batch_jobs/007_cal_aggs_for_db.py
+END
+000_batch_job_enabler.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gm_framework/!svn/ver/9096/trunk/apps/scripts/batch_jobs/000_batch_job_enabler.sh
+END
+004_load_inquiry.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/004_load_inquiry.sh
+END
+013_mygmc_buying_lead_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gm_framework/!svn/ver/9173/trunk/apps/scripts/batch_jobs/013_mygmc_buying_lead_logs.sh
+END
+005_load_interest_buylead.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/005_load_interest_buylead.sh
+END
+011_mygmc_product_click_logs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gm_framework/!svn/ver/9177/trunk/apps/scripts/batch_jobs/011_mygmc_product_click_logs.sh
+END
+013_mygmc_buying_lead_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gm_framework/!svn/ver/9172/trunk/apps/scripts/batch_jobs/013_mygmc_buying_lead_to_db.py
+END
+007_cal_aggs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/007_cal_aggs.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gm_framework/!svn/ver/9169/trunk/apps/scripts/batch_jobs/readme.txt
+END
+004_extract_inquiry_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gm_framework/!svn/ver/8796/trunk/apps/scripts/batch_jobs/004_extract_inquiry_to_db.py
+END
+003_extract_performance_log_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gm_framework/!svn/ver/9090/trunk/apps/scripts/batch_jobs/003_extract_performance_log_to_db.py
+END
+005_extract_interest_buylead_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gm_framework/!svn/ver/8792/trunk/apps/scripts/batch_jobs/005_extract_interest_buylead_to_db.py
+END
+001_extract_display_log_to_db.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gm_framework/!svn/ver/8730/trunk/apps/scripts/batch_jobs/001_extract_display_log_to_db.py
+END
