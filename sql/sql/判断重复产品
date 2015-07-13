@@ -1,0 +1,24 @@
+/* Formatted on 2014/10/29 18:04:11 (QP5 v5.256.13226.35538) */
+  SELECT temp.product_id, COUNT (0)
+    FROM seller$product sp,
+         (SELECT sp.product_id,
+                 sp.product_name,
+                 sp.model,
+                 (SELECT spk.keyword
+                    FROM seller$prod_keyword spk
+                   WHERE spk.product_id = sp.product_id AND spk.weight = 1)
+                    keyWord
+            FROM seller$product sp
+           WHERE     sp.comp_id = :compId
+                 AND sp.product_id IN (:productIds)) temp
+   WHERE     1 = 1
+         AND sp.comp_id = :compId
+         and sp.status = 7
+         and sp.product_id not in (:productIds)
+         AND sp.product_name = temp.product_name
+         AND sp.model = temp.model
+         AND temp.keyWord =
+                (SELECT spk.keyword
+                   FROM seller$prod_keyword spk
+                  WHERE spk.product_id = sp.product_id AND spk.weight = 1)
+GROUP BY temp.product_id
