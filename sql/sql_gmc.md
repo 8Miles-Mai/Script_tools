@@ -112,7 +112,7 @@
 	AND att.attribute_id = atv.attribute_id
 	AND atv.attr_value_type = 'C'
 	AND cta.category_id = :leafCatId
-	and att.attribute_id = 1
+	and att.attribute_id = :attribute_id
 	and att.attribute_name = :attributeName
 	and atv.attr_value_type = :attrValueType
 	and atv.option_name = :optionName
@@ -125,17 +125,19 @@
 		pca_product_category pca
 	WHERE 1 = 1
 	AND pra.product_base_id = pca.product_base_id
-	AND pra.attribute_id = 1
-	AND pra.attribute_value_id = :attributeValueId
+	AND pra.attribute_id = :attributeId
+	AND pra.attribute_value_id in (:atvIdList)
 	AND pca.category_id = :leafCatId;
 
 	update pra_product_attribute pra, pca_product_category pca
-	set pra.attribute_value_id = :maxAtvId
+	set pra.attribute_value_id = :maxAtvId,
+		pra.last_update_by = -1,
+		pra.last_update_time = now()
 	where 1 = 1
 	and pra.product_base_id = pca.product_base_id
-	and pra.attribute_id = 1
-	and pra.attribute_value_id = :attributeValueId
-	and pca.category_id = : leafCatId;
+	and pra.attribute_id = :attributeId
+	and pra.attribute_value_id in (:atvIdList)
+	and pca.category_id = :leafCatId;
 
 删除多余的自定义属性值
 
