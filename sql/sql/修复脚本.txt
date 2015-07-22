@@ -1,0 +1,45 @@
+#!/bin/bash
+last_day_month=`date -d "last day" +"%Y-%m"`
+last_day=`date -d "last day" +"%Y-%m-%d"`
+zipTargetFile="/app/deploy/cgi-bin/logs/${last_day_month}/gmstat-${last_day}.log.tar.gz"
+zipSourceFile="/app/deploy/cgi-bin/logs/${last_day_month}/gmstat-${last_day}.log"
+housekeepFolder="/app_data/portal/logs/gmstat/us"
+
+cd /app/deploy/cgi-bin/logs/${last_day_month}
+tar -zcvf $zipTargetFile $zipSourceFile
+
+if [ $? -eq 0 ];then
+
+        echo "mv zip file to housekeep file..."
+        mv $zipTargetFile $housekeepFolder
+
+file
+
+
+
+tar -zcvf /app/deploy/cgi-bin/logs/2014-01/gmstat-2014-01-26.log.tar.gz /app/deploy/cgi-bin/logs/2014-01/gmstat-2014-01-26.log
+mv /app/deploy/cgi-bin/logs/2014-01/gmstat-2014-01-26.log.tar.gz /app_data/portal/logs/gmstat/us
+mv /app/deploy/cgi-bin/logs/2014-01/gmstat-2014-01-26.log.tar.gz /app_data/portal/logs/gmstat/gz
+
+	【001】	 【修复后】	【002】		【修复后】	【count总量】  【修复后】
+
+12 - 257167 			3675 
+11 - 					3332 		11637				
+10 - 					2893 		22480				
+09 - 93364				1330 		17616				
+08 - 124240				1619 		14745			
+07 - 96116				1320 		17431			
+06 - 38725				593 		19140			
+05 - 24506				401 		17266			
+04 - 25997				359 		18914			
+03 - 19759				336 		19381				
+
+#mail
+02 - 26266 				338 		14993			1440423
+01 - 17756 				300 		13166			1280353
+31 - 14785 				220 		15034			28300
+30 - 16074 				247 		17465			32180
+29 - 30329 				418 		18053			61559
+28 - 52371 				651 		19139			101725		1775975
+27 - 342531 			8432 		12504			834799
+26 - 423862  			11466 		13042			1231649			

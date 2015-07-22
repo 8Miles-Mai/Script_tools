@@ -1,0 +1,19 @@
+
+select wu.comp_id 公司ID,
+       wu.user_id 用户ID,
+       decode((select wur.role_type
+                from web$user_role wur
+               where wur.user_id = wu.user_id),
+              1, '主账号', 2, '业务经理', 3, '业务员', 4, '制作员') 用户类型,
+       wu.given_name || '.' || wu.family_name 用户名,
+       wu.last_login_time 最后登录时间,
+       decode(wu.status, 0, '新建', 7, '正常使用') 用户状态,
+       wu.email 邮箱地址,
+       decode(wu.is_email_valid, 'Y', '是', 'N', '否') 邮箱是否验证,
+       wu.tel 电话
+  from web$user wu
+ where wu.status in (0, 7)
+   and wu.user_id <> (select sc.owner_id
+                        from seller$company sc
+                       where sc.comp_id = wu.comp_id)
+   and wu.last_login_time > to_date('2013-12-01', 'YYYY-mm-DD');
