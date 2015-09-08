@@ -82,17 +82,11 @@ def get_order_id_by_number(number_list):
 
 if __name__ == '__main__':
     print "begin..."
-    number_list = ['TB1416961436391', 
-'TB1417504628673', 
-'TB1417119578917', 
-'TB1418011355714', 
-'TB1418012820425', 
-'TB1418012820206', 
-'TB1418091544988', 
-'TB1418180979680', 
-'TB1418011355374', 
-'TB1418011355844', 
-'TB1418012820504']
+    number_list = [
+        'TB10000883421424749786850'
+	,'TB10000883421424749383783'
+	,''
+    ]
     order_id_list = get_order_id_by_number(number_list)
     accept_order(order_id_list)
     print "end..."

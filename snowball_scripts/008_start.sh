@@ -9,4 +9,4 @@ export LD_LIBRARY_PATH=.:$ORACLE_HOME/lib:/lib:/usr/lib:/usr/local/lib
 
 cd /app/gmbatch/scripts/miles/snowball_scripts
 
-./002_trade_count_spu_sku_num.py
+./008_trade_count_comp_info.py
